@@ -1,0 +1,210 @@
+/* Estilos generales */
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: 'Rubik dirt', Arial;
+}
+
+.seccion-oscura{
+    color: white;
+    background-color: black;
+}
+
+.seccion-clara{
+    color: black;
+    background-color: white;
+}
+
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt', Arial;
+}
+
+.seccion-texto{
+    font-size: 1.2rem;
+}
+
+.seccion-descripcion{
+    font-size: 1.2rem;
+    color: #584e4e;
+}
+
+/* ---------------Estilos de navbar---------------- */
+
+.navbar{
+    padding: 2rem;
+    background-color: #f5f6f7;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* -------------Estilos del inicio------------- */
+
+.inicio {
+    background-color: #f8f4ec; 
+}
+
+.inicio .contenido {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px; 
+    color: #5a3c2a; 
+    padding: 20px;
+}
+
+.inicio .texto {
+    flex: 1;
+    text-align: left;
+}
+
+.inicio .video {
+    flex: 1;
+    max-width: 500px; 
+}
+
+.inicio .video video {
+    width: 400px;
+    height: 550px;
+    border-radius: 8px;
+}
+
+/* ------------Productos carrusel----------- */
+
+.productos-disponibles{
+    padding: 40px 40px 0 40px;
+}
+
+.productos-disponibles .carrusel{
+    max-width: 800px;
+}
+
+.carousel-item{
+    height: 500px;
+}
+
+.carousel-item .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.productos-imagen{
+    height: 250px;
+    width: 500px;
+    margin: 10px 10px 20px 10px;
+}
+
+.productos-texto{
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.productos-info{
+    font-weight: bold;
+    text-align: center;
+}
+
+.productos-info p{
+    margin-bottom: 0;
+}
+
+.productos-footer .cliente{
+    font-size: 1.2rem;
+}
+
+.productos-info .cargo{
+    font-size: 0.9rem;
+    color: #656060;
+}
+
+/* ----------------------Proceso de produccion---------------------- */
+
+.procesos {
+    padding: 40px;
+    background-color: #f8f4ec; 
+    text-align: center;
+}
+
+.procesos .seccion-titulo {
+    font-size: 2rem;
+    color: #5a3c2a; 
+    margin-bottom: 30px;
+}
+
+.linea-tiempo {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.paso {
+    flex: 1;
+    max-width: 250px;
+    text-align: center;
+}
+
+.paso h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.paso p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+.i {
+    width: 50px;
+    height: 50px;
+}
+
+/* ---------------Formulario--------------- */
+
+.formulario-seccion {
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+/* ----------------Footer--------------- */
+  
+  footer p {
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+
+/* Medias querys para la responsividad */
+
+@media screen and (max-width: 767px) {
+    .navbar-brand img{
+        padding-top: 40px;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .hero-inferior-imagen {
+        max-width: 650px;
+    }
+}
